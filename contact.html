@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/stylecontact.css" />
+
+    <title>Contact Me</title>
+  </head>
+
+  <body>
+    <div class="overlay"></div>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">BUSINESS PROJECT</a>
+          </li>
+          <li class="nav-item">
+            <a href="codingwork.html" class="nav-link">CODING PROJECT</a>
+          </li>
+          <li class="nav-item current">
+            <a href="contact.html" class="nav-link">CONTACT ME</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="work">
+      <h1 class="lg-heading">
+        Contact
+        <span class="text-secondary" style="text-align: left;">Me</span>
+      </h1>
+      <h2 class="sm-heading">
+        Here are some of my details or you can contact me via contact form....
+      </h2>
+
+      <section id="fancy-form">
+        <div class="container">
+          <div class="form-sections">
+            <!-- Form left -->
+            <div class="Form-left">
+              <!--border-bottom line-->
+
+              <br />
+
+              <!--first Heading -->
+              <h2>ADDRESS</h2>
+              <br />
+              <h3><span>Paradise Palace Markandi, Maharashtra, India</span></h3>
+              <hr />
+              <br /><br />
+
+              <!--second Heading -->
+              <h2>PHONE</h2>
+              <br />
+
+              <h3><span>(+91)9960301742</span></h3>
+              <hr />
+              <br /><br />
+
+              <!--third Heading -->
+              <h2>EMAIL</h2>
+              <br />
+              <h3><span>febsep6@gmail.com</span></h3>
+              <hr />
+              <br />
+
+              <!-- social media icons -->
+            </div>
+
+            <!-- form right -->
+            <div class="Form-right">
+              <!-- form -->
+              <form action="POST" data-netlify="true">
+                <h3>NAME</h3>
+
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  name="name"
+                  required
+                /><br /><br />
+                <h3>EMAIL</h3>
+
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  name="email"
+                  required
+                /><br /><br />
+                <h3>PHONE</h3>
+
+                <input
+                  type="number"
+                  placeholder="Enter you number"
+                  name="number"
+                  required
+                /><br /><br />
+                <h3>YOUR MESSAGE</h3>
+
+                <textarea
+                  name=""
+                  id=""
+                  cols="10"
+                  rows="5.5"
+                  placeholder="Enter your subject"
+                  name="text"
+                  required
+                ></textarea
+                ><br /><br />
+
+                <input
+                  type="file"
+                  placeholder="Upload File"
+                  name="myfile"
+                  rows="7"
+                /><br /><br />
+
+                <div data-netlify-recaptcha="true"></div>
+                <button>Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="main-footer">Copyright &copy;2020</footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
