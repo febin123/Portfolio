@@ -12,8 +12,60 @@
       crossorigin="anonymous"
     />
 
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.JPG" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Business Project Work</title>
+
+    <style>
+      @keyframes slide {
+        0% {
+          left: -06%;
+        }
+        10% {
+          left: -06%;
+        }
+        20% {
+          left: -106%;
+        }
+        30% {
+          left: -106%;
+        }
+        40% {
+          left: -206%;
+        }
+        50% {
+          left: -206%;
+        }
+        60% {
+          left: -306%;
+        }
+        70% {
+          left: -306%;
+        }
+        /* 80% {
+          left: -406%;
+        }
+        90% {
+          left: -406%;
+        } */
+        100% {
+          left: 06%;
+        }
+      }
+
+      #slider {
+        overflow: hidden;
+      }
+      #slider figure img {
+        float: left;
+        width: 25%;
+      }
+      #slider figure {
+        position: relative;
+        width: 400%;
+        animation: slide 10s infinite;
+      }
+    </style>
   </head>
 
   <body>
@@ -59,9 +111,17 @@
       <div class="projects">
         <!-- Project1 -->
         <div class="item">
-          <a href="https://laundrypalace.netlify.app/" target="blank">
-            <img src="img/projects/project1.jpg" alt="project" />
+          <a href="https://shobra-resturant.netlify.app/" target="blank">
+            <div id="slider">
+              <figure>
+                <img src="/img/projects/laundry1.jpg" />
+                <img src="/img/projects/laundry2.jpg" />
+                <img src="/img/projects/laundry3.jpg" />
+                <img src="/img/projects/laundry4.jpg" />
+              </figure>
+            </div>
           </a>
+
           <a
             href="https://laundrypalace.netlify.app/"
             target="blank"
@@ -80,6 +140,7 @@
 
         <div class="item">
           <a href="https://laundrypalace.netlify.app/"> </a>
+
           <div class="job job-1">
             <h1 class="text-secondary">Laundry Palace</h1>
             <br />
@@ -110,7 +171,15 @@
 
         <div class="item">
           <a href="https://shobra-resturant.netlify.app/" target="blank">
-            <img src="img/projects/project1.jpg" alt="project" />
+            <div id="slider">
+              <figure>
+                <img src="/img/projects/project2-1.jpg" />
+                <img src="/img/projects/project2-2.jpg" />
+                <img src="/img/projects/project2-3.jpg" />
+                <img src="/img/projects/project2-4.jpg" />
+                <!-- <img src="/img/projects/project2-5.jpg" /> -->
+              </figure>
+            </div>
           </a>
           <a
             href="https://shobra-resturant.netlify.app/"

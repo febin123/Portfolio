@@ -12,8 +12,56 @@
       crossorigin="anonymous"
     />
 
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.JPG" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Coding Project</title>
+
+    <style>
+      @keyframes slide {
+        0% {
+          left: -06%;
+        }
+
+        10% {
+          left: -06%;
+        }
+
+        20% {
+          left: -106%;
+        }
+
+        30% {
+          left: -106%;
+        }
+
+        40% {
+          left: -206%;
+        }
+
+        50% {
+          left: -206%;
+        }
+
+        100% {
+          left: 06%;
+        }
+      }
+
+      #slider {
+        overflow: hidden;
+      }
+
+      #slider figure img {
+        float: left;
+        width: 25%;
+      }
+
+      #slider figure {
+        position: relative;
+        width: 400%;
+        animation: slide 10s infinite;
+      }
+    </style>
   </head>
 
   <body>
@@ -60,7 +108,13 @@
         <!-- Project1 -->
         <div class="item">
           <a href="https://einkaufen-beobachten.netlify.app/" target="blank">
-            <img src="img/projects/project1.jpg" alt="project" />
+            <div id="slider">
+              <figure>
+                <img src="/img/projects/project3-1.jpg" />
+                <img src="/img/projects/project3-2.jpg" />
+                <img src="/img/projects/project3-3.jpg" />
+              </figure>
+            </div>
           </a>
           <a
             href="https://einkaufen-beobachten.netlify.app/"
@@ -98,7 +152,13 @@
 
         <div class="item">
           <a href="https://budgetrechner.netlify.app/" target="blank">
-            <img src="img/projects/project1.jpg" alt="project" />
+            <div id="slider">
+              <figure>
+                <img src="/img/projects/project4-1.jpg" />
+                <img src="/img/projects/project4-2.jpg" />
+                <img src="/img/projects/project4-3.jpg" />
+              </figure>
+            </div>
           </a>
           <a
             href="https://budgetrechner.netlify.app/"
