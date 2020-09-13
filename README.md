@@ -1,12 +1,12 @@
-# Portfolio
-###Resturant_Webite
+### Portfolio
+
 
 ##It's avaiable online 
-https://shobra-resturant.netlify.app/
+https://febin-skariya.netlify.app/
 
 
 ##Task
-To build a simple static website so that customer can get a rough idea of the hotel's history and it's famous dishes.
+This is to showcase my , talent, education, work & programming experience.  
 
 
 ##Summary
@@ -18,7 +18,7 @@ The site was transformed from static site into fully functioning website via JAV
 
 ##Technologies used
 --HTML5
---CSS3/Bootstrap
+--CSS3
 --Javascript
 
 
