@@ -17,7 +17,6 @@ Here you can see my all of my qualifications, freelancing web projects, coding p
 ##Technologies used
 --HTML5
 --CSS3
---Javascript
 
 
 ##Platform used
